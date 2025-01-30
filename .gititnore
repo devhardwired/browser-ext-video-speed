@@ -1,0 +1,36 @@
+# Ignore node_modules if you're using Node.js for build scripts
+node_modules/
+
+# If you're using a package manager like npm or yarn, include lock files
+# Uncomment the following lines if applicable
+# package-lock.json
+# yarn.lock
+
+# Ignore build or distribution folders
+dist/
+build/
+out/
+
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+
+# Ignore temporary files
+*.log
+*.tmp
+*.temp
+
+# Ignore OS-specific files (if not covered by global .gitignore)
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Chrome extension unpacked directory if applicable
+.unpacked/
+
